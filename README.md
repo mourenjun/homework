@@ -4,7 +4,7 @@
 
 ![MFC](https://img.shields.io/badge/MFC-14.x-blue)
 ![C++](https://img.shields.io/badge/C++-17-green)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2022-purple)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2026-purple)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -915,6 +915,6 @@ git push origin feature/AmazingFeature
 
 ### ⭐ 如果这个项目对你有帮助，请给个星标！⭐
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Hero Wang]**
 
 </div>
