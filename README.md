@@ -911,25 +911,7 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software...
 ```
 
----
 
-## 📞 联系方式
-
-- **作者**：[Your Name]
-- **邮箱**：your.email@example.com
-- **博客**：https://yourblog.com
-- **GitHub**：https://github.com/yourusername
-
----
-
-## 🙏 致谢
-
-- Microsoft MFC团队
-- C++ Reference (cppreference.com)
-- Stack Overflow社区
-- Visual Studio开发工具
-
----
 
 ## 📊 项目统计
 
@@ -940,7 +922,7 @@ copies of the Software...
 
 **总代码行数**：约 2000+ 行  
 **开发周期**：2周  
-**最后更新**：2025-01-XX
+**最后更新**：2025-12-28
 
 ---
 
