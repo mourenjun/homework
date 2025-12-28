@@ -1,0 +1,363 @@
+[Engine] 引擎已启动
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Data Backup
+[Engine] 任务已提交: Web Request
+[Engine] 执行中: Web Request
+[Web] 发起HTTP请求...
+[Web] 请求成功
+[Engine] 完成: Web Request
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → E:\backup.zip
+[Engine] 完成: Data Backup
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Deadlock Demo
+[Engine] 任务已提交: Validator
+[Engine] 执行中: Deadlock Demo
+[Deadlock] 线程A: 准备获取资源A...
+[Deadlock] 线程A: 准备获取资源B...
+[Deadlock] 线程A: 发生致命错误！
+[Engine] 异常: Deadlock Demo - Simulated Crash in Thread A
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Engine] 任务已提交: Alert Service
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Engine] 异常: Validator - resource deadlock would occur: resource deadlock would occur
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Alert Service
+[Alert] 检查提醒事项...
+[Engine] 任务已提交: Deadlock Demo
+[Engine] 任务已提交: Validator
+[Engine] 引擎已启动
+[Engine] 执行中: Deadlock Demo
+[Deadlock] 线程A: 准备获取资源A...
+[Deadlock] 线程A: 准备获取资源B...
+[Deadlock] 线程A: 发生致命错误！
+[Engine] 异常: Deadlock Demo - Simulated Crash in Thread A
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Engine] 异常: Validator - resource deadlock would occur: resource deadlock would occur
+[Engine] 任务已提交: Deadlock Demo
+[Engine] 任务已提交: Validator
+[Engine] 执行中: Deadlock Demo
+[Deadlock] 线程A: 准备获取资源A...
+[Engine] 异常: Deadlock Demo - resource deadlock would occur: resource deadlock would occur
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Engine] 异常: Validator - resource deadlock would occur: resource deadlock would occur
+[Engine] 任务已提交: Deadlock Demo
+[Engine] 任务已提交: Validator
+[Engine] 执行中: Deadlock Demo
+[Deadlock] 线程A: 准备获取资源A...
+[Engine] 异常: Deadlock Demo - resource deadlock would occur: resource deadlock would occur
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Engine] 异常: Validator - resource deadlock would occur: resource deadlock would occur
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Alert Service
+[Alert] 检查提醒事项...
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Web Request
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Web Request
+[Engine] 任务已提交: Safe Demo
+[Engine] 任务已提交: Validator
+[Engine] 引擎已启动
+[Engine] 执行中: Safe Demo
+[Safe] 线程B: 使用RAII获取资源A...
+[Safe] 线程B: 使用RAII获取资源B...
+[Safe] 线程B: 模拟异常...
+[Engine] 异常: Safe Demo - Simulated Crash with RAII Protection
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Validator] ? 成功获取资源A！锁已被正确释放！
+[Engine] 完成: Validator
+[Engine] 引擎已启动
+[Engine] 任务已提交: Safe Demo
+[Engine] 任务已提交: Validator
+[Engine] 执行中: Safe Demo
+[Safe] 线程B: 获取资源A...
+[Safe] 线程B: 获取资源B...
+[Safe] 线程B: 模拟异常...
+[Engine] 异常: Safe Demo - Simulated Crash with RAII Protection
+[Engine] 任务已提交: Web Request
+[Engine] 执行中: Web Request
+[Web] 发起HTTP请求...
+[Web] 请求成功
+[Engine] 完成: Web Request
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Validator] ? 成功获取资源A！锁已被正确释放！
+[Engine] 完成: Validator
+[Engine] 引擎已启动
+[Engine] 引擎已停止
+[Engine] 引擎已启动
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Engine] 任务已提交: Data Backup
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Web Request
+[Engine] 执行中: Web Request
+[Web] 发起HTTP请求...
+[Web] 请求成功
+[Engine] 完成: Web Request
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → E:\backup.zip
+[Engine] 完成: Data Backup
+[Engine] 执行中: Alert Service
+[Alert] 检查提醒事项...
+[Alert] 提醒已发送
+[Engine] 完成: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Data Backup
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → E:\backup.zip
+[Engine] 完成: Data Backup
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Data Analytics
+[Engine] 执行中: Data Analytics
+[Analytics] 正在分析数据集...
+[Engine] 完成: Data Analytics
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Engine] 任务已提交: Deadlock Demo
+[Engine] 任务已提交: Validator
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Deadlock Demo
+[Deadlock] 线程A: 准备获取资源A...
+[Deadlock] 线程A: 准备获取资源B...
+[Deadlock] 线程A: 发生致命错误！
+[Engine] 异常: Deadlock Demo - Simulated Crash in Thread A
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Engine] 异常: Validator - resource deadlock would occur: resource deadlock would occur
+[Engine] 任务已提交: Safe Demo
+[Engine] 任务已提交: Validator
+[Engine] 执行中: Safe Demo
+[Safe] 线程B: 获取资源A...
+[Engine] 异常: Safe Demo - resource deadlock would occur: resource deadlock would occur
+[Engine] 执行中: Matrix Calc
+[Matrix] 开始矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Validator
+[Validator] 验证线程: 尝试获取资源A...
+[Engine] 异常: Validator - resource deadlock would occur: resource deadlock would occur
+[Engine] 引擎已启动
+[Engine] 任务已提交: Data Backup
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → D:\backup.zip
+[Engine] 完成: Data Backup
+[Engine] 引擎已启动
+[Engine] 任务已提交: Data Backup
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → D:\backup.zip
+[Engine] 完成: Data Backup
+[Engine] 任务已提交: Data Backup
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → D:\backup.zip
+[Engine] 完成: Data Backup
+[Engine] 引擎已启动
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Data Backup
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → D:\backup.zip
+[Engine] 完成: Data Backup
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 引擎已启动
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Web Request
+[Engine] 执行中: Web Request
+[Web] 发起HTTP请求...
+[Web] 请求成功
+[Engine] 完成: Web Request
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Alert Service
+[Alert] 检查提醒事项...
+[Engine] 任务已提交: Data Analytics
+[Engine] 任务已提交: Data Analytics
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Data Analytics
+[Engine] 任务已提交: Data Analytics
+[Engine] 任务已提交: Data Analytics
+[Engine] 任务已提交: Data Analytics
+[Engine] 任务已提交: Data Analytics
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 任务已提交: Safe Demo
+[Engine] 任务已提交: Validator
+[Engine] 引擎已停止
+[Engine] 任务已提交: Matrix Calc
+[Engine] 引擎已启动
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Alert Service
+[Alert] 检查提醒事项...
+[Alert] 提醒已发送
+[Engine] 完成: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Data Analytics
+[Engine] 执行中: Data Analytics
+[Analytics] 正在分析数据集...
+[Engine] 完成: Data Analytics
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Engine] 任务已提交: Safe Demo
+[Engine] 任务已提交: Validator
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Safe Demo
+[Safe] 线程B: 获取资源A...
+[Safe] 线程B: 获取资源B...
+[Safe] 线程B: 模拟异常...
+[Engine] 异常: Safe Demo - Simulated Crash with Protection
+[Engine] 引擎已启动
+[Engine] 任务已提交: Matrix Calc
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Web Request
+[Engine] 执行中: Web Request
+[Web] 发起HTTP请求...
+[Engine] 任务已提交: Alert Service
+[Web] 请求成功
+[Engine] 完成: Web Request
+[Engine] 任务已提交: Data Analytics
+[Engine] 执行中: Data Analytics
+[Analytics] 正在分析数据集...
+[Engine] 完成: Data Analytics
+[Engine] 执行中: Alert Service
+[Alert] 检查提醒事项...
+[Alert] 提醒已发送
+[Engine] 完成: Alert Service
+[Engine] 任务已提交: Alert Service
+[Engine] 执行中: Matrix Calc
+[Matrix] 矩阵运算...
+[Matrix] 计算完成
+[Engine] 完成: Matrix Calc
+[Engine] 任务已提交: Matrix Calc
+[Engine] 任务已提交: Data Backup
+[Engine] 执行中: Data Backup
+[Backup] 启动PowerShell压缩流程...
+[Backup] 备份完成 → D:\backup.zip
+[Engine] 完成: Data Backup
